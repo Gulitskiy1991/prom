@@ -1,0 +1,30 @@
+.top-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.045);
+  padding: 10px 0;
+  color: #707070;
+}
+.top-bar a {
+  color: #707070;
+}
+.top-bar ul {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  padding-left: 80px;
+}
+
+.socials a {
+  color: rgb(77, 172, 236);
+}
+
+@media screen and (max-width: 992px) {
+  .top-bar {
+    display: none;
+  }
+}
